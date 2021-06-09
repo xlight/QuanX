@@ -545,15 +545,6 @@
       }
     },	
 	  {
-      "name": "京东抽盲盒一次性领豆",
-      "type": "cron",
-      "time": "0 9 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://ghproxy.com/https://raw.githubusercontent.com/sngxpro/QuanX/master/scripts/jay_freshgoods.js"
-      }
-    },	
-	  {
       "name": "得宝小程序",
       "type": "cron",
       "time": "15 7,15 * * *",
